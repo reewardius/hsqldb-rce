@@ -1,6 +1,8 @@
 # hsqldb-rce
 ```
 > grep -rP 'jdbc:hsqldb.*password.*' /path/to/hsqldb
+# Default credentials are usually sa with a blank password.
+
 > java -jar hsqldb.jar
 > jdbc:hsqldb:hsql://ip/DBNAME
 
